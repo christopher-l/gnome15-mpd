@@ -1,5 +1,5 @@
-Copy the folder to you gnome15 plugins directory.
-Probably it either
+Copy the folder to your gnome15 plugins directory.
+Probably it is either
     ~/.config/gnome15/plugins
 or
     /usr/share/gnome15/plugins
