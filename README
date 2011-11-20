@@ -1,0 +1,9 @@
+Copy the folder to you gnome15 plugins directory.
+Probably it either
+    ~/.config/gnome15/plugins
+or
+    /usr/share/gnome15/plugins
+for systemwide installation.
+
+REQUIREMENTS:
+   python-mpd
