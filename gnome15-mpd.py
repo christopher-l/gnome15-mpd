@@ -20,15 +20,11 @@
 
 import gnome15.g15screen as g15screen 
 import gnome15.g15theme as g15theme 
-#import gnome15.g15util as g15util
 import gnome15.util.g15scheduler as g15scheduler
 import gnome15.g15driver as g15driver
-#import gnome15.g15globals as g15globals
 import gnome15.g15text as g15text
 import gtk
 import os
-#import sys
-#import pango
 from mpd import (MPDClient, MPDError, CommandError, ConnectionError)
 from socket import error as SocketError
 
