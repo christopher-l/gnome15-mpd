@@ -199,44 +199,39 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(0,-1009.3622)">
+     id="layer1">
     <text
        xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       x="-0.33794549"
-       y="1137.5176"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Fixed"
+       y="10"
        id="text4014"
-       sodipodi:linespacing="125%"
-       transform="scale(1.1153647,0.89656774)"><tspan
+       sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4016"
-         x="-0.33794549"
-         y="1137.5176">${title}</tspan></text>
+         y="10">${title}</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       x="-0.0059142411"
-       y="1160.1841"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Fixed"
+       y="20"
        id="text4014-7"
-       sodipodi:linespacing="125%"
-       transform="scale(1.1153647,0.89656774)"><tspan
+       sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4016-9"
-         x="-0.0059142411"
-         y="1160.1841">${album}</tspan></text>
+         y="20">${album}</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       x="-0.0059142411"
-       y="1149.0707"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Fixed"
+       y="30"
        id="text4014-7-9"
-       sodipodi:linespacing="125%"
-       transform="scale(1.1153647,0.89656774)"><tspan
+       sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4016-9-2"
-         x="-0.0059142411"
-         y="1149.0707">${artist}</tspan></text>
+         y="30">${artist}</tspan></text>
+  </g><g
+     inkscape:label="Layer 2"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1009.3622)">
     <rect
        id="rect3008-1"
        width="30"

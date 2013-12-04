@@ -20,15 +20,15 @@
 
 import gnome15.g15screen as g15screen 
 import gnome15.g15theme as g15theme 
-import gnome15.g15util as g15util
+#import gnome15.g15util as g15util
+import gnome15.util.g15scheduler as g15scheduler
 import gnome15.g15driver as g15driver
-import gnome15.g15globals as g15globals
+#import gnome15.g15globals as g15globals
 import gnome15.g15text as g15text
-import datetime
 import gtk
 import os
-import sys
-import pango
+#import sys
+#import pango
 from mpd import (MPDClient, MPDError, CommandError, ConnectionError)
 from socket import error as SocketError
 
@@ -236,5 +236,4 @@ class G15mpd():
         self._schedule_redraw()
 
     def _schedule_redraw(self):
-        self.timer = g15util.schedule("ClockRedraw", 1, self._redraw)
-        
+        self.timer = g15scheduler.schedule("MPDRedraw", 1, self._redraw)
