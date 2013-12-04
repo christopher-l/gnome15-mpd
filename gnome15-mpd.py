@@ -113,7 +113,7 @@ class G15mpd():
 #                                     thumbnail_painter = self.paint_thumbnail, panel_painter = self.paint_thumbnail,
                                      theme = self.theme)
         self.page.title = "MPD"
-        self.screen.action_listeners.append(self)
+        self.screen.key_handler.action_listeners.append(self)
         self.screen.add_page(self.page)
         self.screen.redraw(self.page)
         self._schedule_redraw()
@@ -127,6 +127,7 @@ class G15mpd():
             self.timer.cancel()
             self.timer = None
         self.screen.del_page(self.page)
+        self.screen.key_handler.action_listeners.remove(self)
 
     def destroy(self):
         pass
